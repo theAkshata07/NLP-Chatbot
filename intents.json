@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you Later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting.Take care.",
+        "Have a nice day , take care of your loved ones.",
+        "Bye! Wishing a speedy recovery."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "covid",
+      "patterns": [
+        "I want information about covid",
+        "please tell about covid"
+      ],
+      "responses": [
+        "Coronaviruses are a family of viruses that can cause respiratory illness in humans. They get their name,corona, from the many crown-like spikes on the surface of the virus.Some common symptoms that have been specifically linked to COVID-19 include:shortness of breath,a cough that gets more severe over time,fever,chills,fatigue.Stopping the spread starts with you ,Wear a mask,Clean your hands,Maintain safe distance,Get vaccinated."
+      ]
+    },
+    {
+      "tag": "doctor",
+      "patterns": [
+        "Can I get any doctor's no.to contact ?",
+        "Can I call you ?",
+        "What are the doctor's helpline numbers?",
+        "I want information over call" ,
+        "Please give me mobile no."
+      ],
+      "responses": [
+        "Here are our Doctors' Helpline numbers: 88896754 , 6767587.You can contact them."
+      ]
+    },
+    {
+      "tag": "disease",
+      "patterns": [
+        "I want some information about my disease.",
+        "I have disease.",
+        "Please tell me how to cure my disease."
+      ],
+      "responses": [
+        "Don't worry.Just tell me what are the symptoms you are experiencing.",
+        "You will be fine. Tell me the symptoms. I will help you."
+      ]
+    },
+    {
+      "tag": "fever",
+      "patterns": [
+        "I have fever.",
+        "Suggest me some medicines for fever."
+      ],
+      "responses": [
+        "If you have a fever , I will recommend you to use over-the-counter medication, such as acetaminophen (Tylenol, others) , paracetamol or ibuprofen (Advil, Motrin IB, others). Use these medications according to the label instructions or as recommended by your doctor..Still If you have doubts , consult from our doctors : 66754 , 4375"
+      ]
+    }
+  ]
+}
